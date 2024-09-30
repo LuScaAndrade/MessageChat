@@ -11,7 +11,7 @@ while True:
         for i in messages: 
             print(i['name'], "-", i['text'])
     
-    print("_________________________________")
+    print("__________________________________")
     
     text = input("Message: ")
     if text == "end":
